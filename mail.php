@@ -8,7 +8,7 @@ $email = $_POST['email'];
 $company = $_POST['company'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Country: $country \n Code: $code \n Phone: $phone \n Email: $email \n Company: $company \n Message: $message";
-$recipient = "griff@rockbottomcreativeagency.com";
+$recipient = "sales@meranticonsulting.com";
 $subject = "Website Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
